@@ -1,6 +1,7 @@
 # Overview
 
-I am taking a Udemy course from Maximilian to learn about React, and this is one of his starting projects. I coded along to learn about how to use basic Redux functionalities including setting up central store, reducer, and dispatch to trigger the changes of the counter.
+This is a simple React counter project using basic Redux functionalities including setting up central store, reducer, and dispatch to trigger the changes of the counter.
+ I am taking a Udemy course from Max and I used his starting project to code along, so I can learn all these skills.
 
 This project simply allows users to click buttons to either increase or decrese the counters. There is also a toggle button for users to hide or show the counter. 
 
