@@ -5,6 +5,8 @@ import { createStore } from "redux";
 const counterReducer = (state = { counter: 0, showCounter: true }, action) => {
 	console.log(state);
 	if (action.type === "increment") {
+        // we return a new state every time, it will not merge with the old state
+        // NEVER change the original state like this "state.counter++"
 		return {
 			counter: state.counter + 1,
 			showCounter: state.showCounter,
