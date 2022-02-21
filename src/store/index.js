@@ -1,11 +1,13 @@
 import { createStore } from "redux";
 
 // set up reducer, also set default state to be an object
-const counterReducer = (state = { counter: 0 }, action) => {
+// we can set up multiple states in the state object like this
+const counterReducer = (state = { counter: 0, showCounter: true }, action) => {
 	console.log(state);
 	if (action.type === "increment") {
 		return {
 			counter: state.counter + 1,
+			showCounter: state.showCounter,
 		};
 	}
 
@@ -13,12 +15,22 @@ const counterReducer = (state = { counter: 0 }, action) => {
 	if (action.type === "increase") {
 		return {
 			counter: state.counter + action.amount,
+			showCounter: state.showCounter,
 		};
 	}
 
 	if (action.type === "decrement") {
 		return {
 			counter: state.counter - 1,
+			showCounter: state.showCounter,
+		};
+	}
+
+	// when users click on the toggle button to show and hide the counter
+	if (action.type === "toggle") {
+		return {
+			counter: state.counter,
+			showCounter: !state.showCounter,
 		};
 	}
 
