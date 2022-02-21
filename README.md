@@ -11,7 +11,7 @@ This project simply allows users to click buttons to either increase or decrese 
 * Make sure you have Node.js & NPM installed on your machine
     * https://phoenixnap.com/kb/install-node-js-npm-on-windows
     * https://nodejs.org/en/download/ 
-* Run "git clone https://github.com/dyj0183/React-Project-Redux-Basic.git"
+* Run "git clone https://github.com/dyj0183/React-Counter-Project-Redux-Basic.git"
 * Run "npm install"
 * Run "npm install redux react-redux" to install the Redux packages
 * Run "npm start" to view the running project
