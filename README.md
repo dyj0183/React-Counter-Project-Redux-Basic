@@ -1,19 +1,25 @@
 # Overview
 
-This is an application for practicing using Redux in an app. This start project came from Max on his Udemy React course, but I am coding along to try to learn all the concepts and skills about Redux.
+I am taking a Udemy course from Maximilian to learn about React, and this is one of his starting projects. I coded along to learn about how to use basic Redux including setting up central store, reducer, and dispatch to trigger the changes of the counter.
 
 [Software Demo Video]()
 
 # Steps
 
-After running "npm install", don't forget to run "npm install redux react-redux" to install the packages.
+- Run "npm install"
+- Run "npm install redux react-redux" to install the Redux packages.
 
 # Development Environment
 
-* React
-* JSX
-* HTML
-* CSS
-* Git
-* GitHub
-* Visual Studio Code
+- React
+- JSX
+- JavaScript
+- HTML
+- CSS
+- Git
+- GitHub
+- Visual Studio Code
+
+# Useful Websites
+
+[React Course from Max](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
